@@ -28,6 +28,7 @@ jobs:
         with:
           node-version: 16
           cache: pnpm
+      # --no-frozen-lockfile is used to avoid the error "Frozen lockfile has incorrect entry for "dependencies" field" when running pnpm install
       - run: pnpm install --no-frozen-lockfile
       - name: Build
         run: pnpm run docs:build

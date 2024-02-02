@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "WuSong"
-  text: "A personal resume made by vitepress."
+  name: "My Awesome Project"
+  text: "A VitePress Site"
   tagline: My great project tagline
   actions:
     - theme: brand

@@ -1,10 +1,18 @@
 {
-  "devDependencies": {
-    "vitepress": "^1.0.0-rc.40"
-  },
+  "name": "ifreeman6.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev docs --port 8080",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs --port 8080"
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.41"
   }
 }
